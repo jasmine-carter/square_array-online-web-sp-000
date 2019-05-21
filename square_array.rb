@@ -4,7 +4,7 @@ def square_array(array)
 array.each do |element|
   squared_array = []
   squared_element = element ** 2
-  squared_array.push(squared_element)
+  new_array.push(squared_element)
 end
-  return squared_array
+  return new_array
 end
