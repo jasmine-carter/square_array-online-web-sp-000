@@ -5,6 +5,6 @@ array.each do |element|
   squared_array = []
   squared_element = element ** 2
   squared_array.push(squared_element)
-  return squared_array
 end
+  return squared_array
 end
